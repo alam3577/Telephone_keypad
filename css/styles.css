@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: azure;
+}
+.main__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 54px;
+}
+
+h1 {
+  font-family: "Ephesis", cursive;
+}
+input {
+  margin-top: 33px;
+  width: 271px;
+  padding: 5px;
+  font-size: 22px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px;
+  box-shadow: 2px 2px 20px 0px silver;
+}
+.button__container {
+  margin: 9px 0px;
+}
+
+button {
+  width: 87px;
+  height: 42px;
+  box-sizing: border-box;
+}
